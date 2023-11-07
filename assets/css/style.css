@@ -997,6 +997,11 @@ a:hover {
   padding-top: 40px;
 }
 
+body {
+  background-color: rgb(64, 110, 88);
+  color: #4e4e4e;
+}
+
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
@@ -1011,15 +1016,16 @@ a:hover {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #0078ff;
+  border: 1px solid #ffffff;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #0078ff;
+  background-color: #3d6153;
 }
 
 .portfolio-details .portfolio-info {
   padding: 30px;
+  background-color: rgb(116, 136, 128);
   box-shadow: 0px 0 30px rgba(78, 78, 78, 0.08);
 }
 
@@ -1028,7 +1034,7 @@ a:hover {
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #ffffff;
 }
 
 .portfolio-details .portfolio-info ul {
