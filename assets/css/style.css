@@ -471,7 +471,7 @@ a:hover {
 }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgb(15, 33, 36);
   padding: 12px 0;
 }
 
@@ -739,11 +739,19 @@ a:hover {
   height: 100vh;
   position: relative;
   color: #fff;
+  overflow: hidden;
 }
 
-.hero .hero-content {
-  text-align: center;
+.hero video.bg-video {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
 }
 
 .hero .overlay-itro {
@@ -755,6 +763,17 @@ a:hover {
   height: 100%;
   width: 100%;
   opacity: 0.9;
+  z-index: 0;
+}
+
+.hero .hero-content {
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .hero .hero-title {
@@ -1025,7 +1044,7 @@ body {
 
 .portfolio-details .portfolio-info {
   padding: 30px;
-  background-color: rgb(116, 132, 136);
+  background-color: rgb(35, 54, 50);
   box-shadow: 0px 0 30px rgba(78, 78, 78, 0.08);
 }
 
@@ -1452,7 +1471,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #000000;
+  background: rgb(15, 33, 36);
 }
 
 footer .copyright {
